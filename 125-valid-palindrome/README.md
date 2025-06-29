@@ -135,26 +135,27 @@ var isPalindrome = function (s) {
 
 ### 🧩 Step-by-Step Breakdown
 
-Let’s walk through the input:
-📥 s = "A man, a plan, a canal: Panama"
+Let’s walk through the input:  
+📥 `s = "A man, a plan, a canal: Panama"`
 
-Initial Pointers:
+- **Initial Pointers:**  
+  - `left = 0` → `'A'`  
+  - `right = s.length - 1` → `'a'`  
 
-left = 0 → 'A'
+- **Skip non-alphanumeric characters:**  
+  - Ignore commas, spaces, colons, etc.  
+  - Move `left` and `right` inward until both point to valid characters  
 
-right = s.length - 1 → 'a'
+- **Compare characters:**  
+  - `'A'` vs `'a'` → lowercase comparison → ✅ Match  
+  - If they match, continue; else return `false`  
 
-Skip non-alphanumerics:
+- **Repeat until pointers cross:**  
+  - Keep skipping and comparing  
 
-Ignore commas, spaces, colons
+- **All checks pass:**  
+  - No mismatches found → `return true` ✅
 
-Compare characters:
-
-'A' vs 'a' → lowercased → ✅ Match
-
-Continue checking inward...
-
-All checks pass → return true
 
 ### 🏁 Output
 
