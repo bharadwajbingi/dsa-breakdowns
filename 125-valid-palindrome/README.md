@@ -1,7 +1,6 @@
 # 🪞 125. Valid Palindrome
 
-<a href="https://leetcode.com/problems/valid-palindrome/" target="_blank" rel="noopener noreferrer">Leetcode Link</a>
----
+## 📘 [Leetcode Link](https://leetcode.com/problems/valid-palindrome/)
 
 ### 🧩 Real-Life Analogy: Mirror Sentence Check
 
@@ -137,24 +136,27 @@ var isPalindrome = function (s) {
 Let’s walk through the input:  
 📥 `s = "A man, a plan, a canal: Panama"`
 
-- **Initial Pointers:**  
-  - `left = 0` → `'A'`  
-  - `right = s.length - 1` → `'a'`  
+- **Initial Pointers:**
 
-- **Skip non-alphanumeric characters:**  
-  - Ignore commas, spaces, colons, etc.  
-  - Move `left` and `right` inward until both point to valid characters  
+  - `left = 0` → `'A'`
+  - `right = s.length - 1` → `'a'`
 
-- **Compare characters:**  
-  - `'A'` vs `'a'` → lowercase comparison → ✅ Match  
-  - If they match, continue; else return `false`  
+- **Skip non-alphanumeric characters:**
 
-- **Repeat until pointers cross:**  
-  - Keep skipping and comparing  
+  - Ignore commas, spaces, colons, etc.
+  - Move `left` and `right` inward until both point to valid characters
 
-- **All checks pass:**  
+- **Compare characters:**
+
+  - `'A'` vs `'a'` → lowercase comparison → ✅ Match
+  - If they match, continue; else return `false`
+
+- **Repeat until pointers cross:**
+
+  - Keep skipping and comparing
+
+- **All checks pass:**
   - No mismatches found → `return true` ✅
-
 
 ### 🏁 Output
 
