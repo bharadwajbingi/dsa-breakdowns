@@ -17,7 +17,7 @@ Each problem comes with:
 
 ### 💹 122. Best Time to Buy and Sell Stock II  
 **Real-life analogy:** Buying low and selling high like a smart shopkeeper.  
-📁 [Go to Solution & Breakdown](./122-best-time-to-buy-and-sell-stock)
+📁 [Go to Solution & Breakdown](./122-best-time-to-buy-and-sell-stock-ii)
 
 ---
 
