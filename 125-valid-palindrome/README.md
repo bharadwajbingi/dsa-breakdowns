@@ -1,7 +1,6 @@
 # 🪞 125. Valid Palindrome
 
-📘 [Leetcode Link](https://leetcode.com/problems/valid-palindrome/)
-
+<a href="https://leetcode.com/problems/valid-palindrome/" target="_blank" rel="noopener noreferrer">Leetcode Link</a>
 ---
 
 ### 🧩 Real-Life Analogy: Mirror Sentence Check
